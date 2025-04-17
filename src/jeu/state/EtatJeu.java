@@ -1,0 +1,22 @@
+package jeu.state;
+
+/**
+ * Énumération représentant les différents états du jeu.
+ */
+public enum EtatJeu {
+    ACCUEIL,
+    CHOIX_MODE,
+    DEFIS_INTRODUCTION,
+    DEFIS_ENIGMES,
+    DEFIS_APRES_ENIGMES,
+    DEFIS_RENCONTRE_MONSTRE,
+    DEFIS_CHERCHER_FORCE,
+    DEFIS_APRES_FORCE,
+    EXPLORATION_MODE,
+    PAUSE,
+    VICTOIRE,
+    DEFAITE,
+    CONFIRMATION_RECOMMENCER,
+    CONFIRMATION_QUITTER,DEUXIEME_ETAPE,
+
+}
